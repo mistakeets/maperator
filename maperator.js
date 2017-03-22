@@ -4,7 +4,6 @@ const makeShape = (letter) => {
   }
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
   const whiteSpace = ' '
-  const treeShape = '@'
   const middleOfShape = alphabet.indexOf(letter) + 1
 
   let tempStorage = []
