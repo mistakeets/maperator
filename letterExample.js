@@ -21,8 +21,6 @@ for (let i = 0; i < middleOfShape; i++) {
   tempStorage[i].push(alphabet[i + 1])
   tempStorage[i].push(alphabet[i + 2])
   tempStorage[i].unshift(spacesBeforeAndAfter)
-
-  //console.log(tempStorage)
 }
 
 tempStorage[1].splice(2, 0, whiteSpace)
