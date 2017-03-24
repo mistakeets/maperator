@@ -1,8 +1,3 @@
-// const makeShape = (letter) => {
-//   if (letter === 'A') {
-//     return 'A\n'
-//   }
-
 const letter = "E"
 
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
@@ -40,6 +35,5 @@ for (let i = 0; i < middleOfShape; i++) {
 for (let i = result.length - 2; i >= 0; i--) {
   result.push(result[i])
 }
-//return result.join("\n") + "\n"
-console.log(result.join("\n" + "\n"))
-  // }
+
+console.log(result.join("\n") + "\n")
